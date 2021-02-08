@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Mapersive</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--Logo-->
+
+    <div >
+       <img src="logo.png" width="400" height="200" onclick="openNav()">
+
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <img src="logo2.jpg" width="400" height="200" onclick="closeNav()" class="left2">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" class="left3">Map</a>
+        <a href="#" class="left3">Settings</a>
+        <a href="#" class="left3">About</a>
+        <a href="#" class="left3">Contact</a>
+      </div>
+
+    
+      <script>
+                    /* Set the width of the side navigation to 250px */
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "420px";
+            }
+
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+}
+      </script>
+    
+
+  </body>
+</html>
