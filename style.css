@@ -17,14 +17,14 @@ body {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 3; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #FFFFFF; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    box-shadow: box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   
   /* The navigation menu links */
@@ -71,13 +71,38 @@ body {
   }
 
   .left2{
-    margin-left: 10px;
+    margin-left: 12px;
     margin-top: 2px;
+    
    
  }
  .left3{
      margin-left: 80px;
  }
 
+ .parent {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .fishes
+    {
+      position:absolute;
+      top: 65px;
+      left: 0px;
+      z-index: 1;
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+    .fish
+    {
+      position:relative;
+      top: 0px;
+      left: 0px;
+      z-index: 2;
+      margin-top: 0px;
+    }
+    
+  }
 
   

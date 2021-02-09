@@ -22,9 +22,15 @@
 
     <!--Logo-->
 
-    <div >
-       <img src="logo.png" width="400" height="200" onclick="openNav()">
+    <div  class="parent">
+       <img src="logo.png" width="400" height="200" onclick="openNav()" class="fish"  >
+        <script src="tour.js"></script>
 
+            <div id="pano" style="width:1535px;height:687px;"class="fishes">
+                <script>
+                    embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
+                </script>
+            </div>
     </div>
 
     <div id="mySidenav" class="sidenav">
@@ -36,11 +42,14 @@
         <a href="#" class="left3">Contact</a>
       </div>
 
+
+
+      
     
       <script>
                     /* Set the width of the side navigation to 250px */
             function openNav() {
-            document.getElementById("mySidenav").style.width = "420px";
+            document.getElementById("mySidenav").style.width = "370px";
             }
 
             /* Set the width of the side navigation to 0 */
